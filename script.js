@@ -12,4 +12,11 @@ const fatores = {
         const unidadeDe = document.getElementById('de').value;
         const unidadePara = document.getElementById('para').value;
         const resultadoDiv = document.getElementById('resultado');
+
+        // validação da entrada do usuário
+        const valor = parseFloat(valorInput.value);
+        if (isNaN(valor) || valor < 0) {
+            resultadoDiv.innerHTML = "🚫🚫🚫 Digite um valor numérico positivo. 🚫🚫🚫";
+            return;
+        }
     }
