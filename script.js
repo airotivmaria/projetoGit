@@ -19,4 +19,7 @@ const fatores = {
             resultadoDiv.innerHTML = "🚫🚫🚫 Digite um valor numérico positivo. 🚫🚫🚫";
             return;
         }
+
+        // lógica de conversão, convertendo valor de entrada para unidade base
+        const valorEmSegundos = valor * fatores[unidadeDe];
     }
