@@ -22,4 +22,7 @@ const fatores = {
 
         // lógica de conversão, convertendo valor de entrada para unidade base
         const valorEmSegundos = valor * fatores[unidadeDe];
+
+        // convertendo o valor base para a unidade de destino
+        const resultado = valorEmSegundos / fatores[unidadePara];
     }
