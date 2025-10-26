@@ -25,4 +25,9 @@ const fatores = {
 
         // convertendo o valor base para a unidade de destino
         const resultado = valorEmSegundos / fatores[unidadePara];
+
+        // exibição do resultado
+        const resultadoFormatado = resultado.toLocaleString('pt-BR', { maximumFractionDigits: 4 });
+
+        resultadoDiv.innerHTML = `✅✅✅ ${valor} ${unidadeDe} equivalem a ${resultadoFormatado} ${unidadePara} ✅✅✅`;
     }
