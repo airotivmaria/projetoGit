@@ -30,6 +30,11 @@ body {
     gap: 15px;
 }
 
+.container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+}
+
 #valor, 
 #de, 
 #para {
