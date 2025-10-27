@@ -97,3 +97,7 @@ button:active {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
+#resultado.mostrar {
+    opacity: 1;
+}
