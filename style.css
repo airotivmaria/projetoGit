@@ -83,3 +83,17 @@ button:hover {
 button:active {
     transform: scale(0.98);
 }
+
+#resultado {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    background: #e9f5ff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #b3daff;
+    color: #004085;
+    font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
