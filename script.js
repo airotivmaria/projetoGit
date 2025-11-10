@@ -29,5 +29,6 @@ const fatores = {
         // exibição do resultado
         const resultadoFormatado = resultado.toLocaleString('pt-BR', { maximumFractionDigits: 4 });
 
+        // mensagem do resultado
         resultadoDiv.innerHTML = `✅ ${valor} ${unidadeDe} equivalem a ${resultadoFormatado} ${unidadePara} ✅`;
     }
