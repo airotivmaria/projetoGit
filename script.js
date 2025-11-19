@@ -31,4 +31,5 @@ const fatores = {
 
         // mensagem do resultado
         resultadoDiv.innerHTML = `✅ ${valor} ${unidadeDe} equivalem a **${resultadoFormatado}** ${unidadePara} ✅`;
+        resultadoDiv.innerHTML = `✅ ${valor} ${unidadeDe} equivalem a ${resultadoFormatado} ${unidadePara} ✅`;
     }
